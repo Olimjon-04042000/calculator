@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #17062A;
+    font-family: sans-serif;
+}
+
+.container {
+    padding-top: 20px;
+    width: 540px;
+    height: 728px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #FFE53D;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.533px;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 540px;
+    color: #FFE53D;
+    text-align: right;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.933px;
+    height: 100px;
+    border-radius: 10px;
+    background: #1E0936;
+    padding: 10px 32px 10px 32px;
+    margin-bottom: 24px;
+}
+
+[type=text]::placeholder {
+    color: #FFE53D;
+    text-align: right;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.933px;
+}
+
+#tbl {
+    display: flex;
+    gap: 0 24px;
+    padding: 32px 31px;
+    border-radius: 10px;
+    background: #1E0936;
+}
+
+.row {
+    width: 478px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.row input[type=button] {
+    width: 101px;
+    height: 64px;
+    border-radius: 10px;
+    background: #331C4D;
+    box-shadow: 0px -4px 0px 0px #881C9E inset;
+    color: #FFE53D;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.667px;
+}
+
+.row #del {
+    border-radius: 10px;
+    background: #56077C;
+    box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.467px;
+}
+
+.row1 #resetBtn {
+    width: 227px;
+    height: 64px;
+    border-radius: 10px;
+    background: #56077C;
+    box-shadow: 0px -4px 0px 0px #BE15F4 inset;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.467px;
+    margin-right: 24px;
+}
+
+.row1 #equal {
+    width: 227px;
+    height: 64px;
+    border-radius: 10px;
+    background: #00DED0;
+    box-shadow: 0px -4px 0px 0px #6CF9F1 inset;
+    color: #1A2327;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.467px;
+}

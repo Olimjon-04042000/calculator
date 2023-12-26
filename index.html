@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">CALCULATOR</h2>
+        <form>
+            <input type="text" disabled="" placeholder="0" value="">
+            <table id="tbl">
+                <tbody>
+                    <tr class="row">
+                        <td><input class="number" type="button" value="7"></td>
+                        <td><input class="number" type="button" value="8"></td>
+                        <td><input class="number" type="button" value="9"></td>
+                        <td><input id="del" type="button" value="DEL"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><input class="number" type="button" value="4"></td>
+                        <td><input class="number" type="button" value="5"></td>
+                        <td><input class="number" type="button" value="6"></td>
+                        <td><input class="arifmetic" type="button" value="+"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><input class="number" type="button" value="1"></td>
+                        <td><input class="number" type="button" value="2"></td>
+                        <td><input class="number" type="button" value="3"></td>
+                        <td><input class="arifmetic" type="button" value="-"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><input id="dot" type="button" value="."></td>
+                        <td><input class="number zero" type="button" value="0"></td>
+                        <td><input class="arifmetic" type="button" value="/"></td>
+                        <td><input class="arifmetic" type="button" value="*"></td>
+                    </tr>
+                    <tr class="row1">
+                        <td><input id="resetBtn" type="button" value="RESET"></td>
+                        <td><input id="equal" type="button" value="="></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+    </div>
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
